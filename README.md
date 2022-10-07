@@ -16,10 +16,6 @@ Provide a brief description of the project - 150 words.
 
 - Douglas A. Campbell, Mount Allison University, dcampbel@mta.ca, ORCID 0000-0001-8996-5463
 
-## Producer  
-
-- Douglas A. Campbell, Mount Allison University, dcampbel@mta.ca, ORCID 0000-0001-8996-5463
-
 ## Data sources
 
 - Provide links to any data used from external providers .
