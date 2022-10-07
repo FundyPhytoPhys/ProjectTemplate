@@ -10,15 +10,15 @@ Provide a brief description of the project - 150 words.
 
 ## Principle Investigators
 
-- Jason Venkiteswaran, Wilfrid Laurier University, jvenkiteswaran@wlu.ca, ORCID 0000-0002-6574-7071
+- Douglas A. Campbell, Mount Allison University, dcampbel@mta.ca, ORCID 0000-0001-8996-5463
 
 ## Primary Contact  
 
-- Jason Venkiteswaran, Wilfrid Laurier University, jvenkiteswaran@wlu.ca, ORCID 0000-0002-6574-7071
+- Douglas A. Campbell, Mount Allison University, dcampbel@mta.ca, ORCID 0000-0001-8996-5463
 
 ## Producer  
 
-- Jason Venkiteswaran, Wilfrid Laurier University, jvenkiteswaran@wlu.ca, ORCID 0000-0002-6574-7071
+- Douglas A. Campbell, Mount Allison University, dcampbel@mta.ca, ORCID 0000-0001-8996-5463
 
 ## Data sources
 
@@ -32,13 +32,6 @@ Provide a brief description of the project - 150 words.
 
 List keywords separated by commas
 
-## Geographic Coverage
-
-- Geo Bounding Box: West Long
-- Geo Bounding Box: East Long
-- Geo Bounding Box: North Lat
-- Geo Bounding Box: South Lat
-
 ## Temporal Coverage
 
 - Start: YYYY-MM-DD
@@ -46,7 +39,7 @@ List keywords separated by commas
 
 ## Additional information and support
 
-- Sensitive Data Flag - Human Participants: YES or NO
+- Sensitive Data Flag - Human Participants:  NO
 - Sensitive Data Flag - Indigenous Partnerships: YES or NO
 - Sensitive Data Flag - Government Partnerships: YES or NO
 - Sensitive Data Flag - Industry Partnerships: YES or NO
