@@ -17,8 +17,12 @@ All repositories should also contain a `README.md` file which details the follow
 ## Project structure
 All project repos are named according to the associated project (e.g. _projectname'). In addition, they contain the following folders:
 
-1. **data |** will contain separate folders for `raw_data`, `clean_data`, and `processed_data`, as well as data from databases incorporated as submodules. For more information related to reading in and using submodules, see `docs/using_submodules.md.
-Folders under `raw_data` will usually be organized by instrument.  Do Not create swarms of unnecessary sub-folders; the YYYYMMDD is in the file name.
+1. **data |** will contain separate folders for `raw_data`, `clean_data`, and `processed_data`,
+Sub-folders under `raw_data` will usually be organized by instrument.
+
+`clean_data`, and `processed_data` may contain sub-folders with merged data files derived from more than one instrument.
+
+Do Not create swarms of unnecessary sub-folders; the YYYYMMDD is in the file name.
 
 2. **code |** scripts and other code for processing and analyzing project information
 Use sub-folder `OldR` to store outdated code.
