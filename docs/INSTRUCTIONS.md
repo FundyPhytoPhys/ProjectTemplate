@@ -15,43 +15,51 @@ All repositories should also contain a `README.md` file which details the follow
 7. Funding sources
 
 ## Project structure
-All project repos are named according to the associated grant and labelled with a short informative tag for the project (e.g. grant_projectname'). In addition, they contain the following folders:
+All project repos are named according to the associated project (e.g. _projectname'). In addition, they contain the following folders:
 
-1. **data |** will contain separate folders for `raw_data`, `clean_data`, and `processed_data`, as well as data from databases incorporated as submodules. For more information related to reading in and using submodules, see `docs/using_submodules.md`.
+1. **data |** will contain separate folders for `raw_data`, `clean_data`, and `processed_data`, as well as data from databases incorporated as submodules. For more information related to reading in and using submodules, see `docs/using_submodules.md.
+Folders under `raw_data` will usually be organized by instrument.  Do Not create swarms of unnecessary sub-folders; the YYYYMMDD is in the file name.
+
 2. **code |** scripts and other code for processing and analyzing project information
+Use sub-folder `OldR` to store outdated code.
+
 3. **docs |** project notes, etc.
-4. **output |** saved outputs (e.g. figures and tables) from analysis
+4. **output |** saved outputs (e.g. knit .Rmd outputs; figures and tables) from analysis
+Do not save swarms of intermediate figures!
 
 
 ## Creating a new project for storage from the GitHub website
 
-1. From the [template's website](https://github.com/biogeochem/project_template), click the _Use this template_ button.
+1. From the [template's website](https://github.com/FundyPhytoPhys/ProjectTemplate), click the _Use this template_ button.
 
-2. Select the owner for your new repository. (This will be the `biogeochem` organization since you want it to be integrated within the organization. It would be you as an individual user *only* if you want to use this template for something outside of the lab group.)
+2. Select the owner for your new repository. (This will be the `FundyPhytoPhys` organization since you want it to be integrated within the organization. It would be you as an individual user *only* if you want to use this template for something outside of the lab group.)
 
-3. Choose a name for your new repository in the format of `surname_projectname`.
+3. Choose a name for your new repository in the format of `projectname`.
 
 4. Write a brief description about the repository.
 
-5. Set the new repository to `Private` unless you want the contents to be made immediately public.
+5. Set the new repository to `Public` unless you want the contents to be `Private` (usually `Public`).
 
 6. Click the _Create repository from template_ button.
 
-7. Fork the new repository from the `biogeochem` organization to your user account, by clicking the _Fork_ button at the top right.
-
-8. Clone the repo from your user account. After forking the repo you will be forward to your own fork. Click _Clone or download_, copy the URL and use software such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/). Alternatively, use the command line (`git clone …`).
+7. Clone the repo by creating a local new .Rproj under RStudio.
+Do not save such local .Rproj on cloud servers or file syncing services;  GitHub is the cloud server.
 
 
 ## Naming and formatting conventions
 All files should follow the standardized naming convention outlined below:
 
-- Dates: YYYY-MM-DD
-- Text: UTF-8 encoding
-- File names: descriptive and searchable
+- Dates: YYYYMMDD
+- Text: UTF-8 encoding, unless forced otherwise by instrument data file formats.
+- File names: descriptive, searchable, and consistent!
+PROJECT_YYYYMMDD_SampleID_OtherInfo_OtherInfo.xxx
 
 
 ## Repository use
 Students or collaborators wishing to use data from a repo must abide by the following guidelines.
 
-*For more information about project maintenance, please contact **Kateri Salk** at krsalkgu@uwaterloo.ca or **Megan Larsen** at mlarsen@wlu.ca or  **Jason Venkiteswaran** at jvenkiteswaran@wlu.ca.*
+*For more information about project maintenance, please contact
+**Douglas Campbell** at dcampbel@mta.ca.
+
+With thanks to **Kateri Salk**, krsalkgu@uwaterloo.ca,  **Megan Larsen**, mlarsen@wlu.ca, **Jason Venkiteswaran**,  jvenkiteswaran@wlu.ca, who generated the template we cloned.
 
