@@ -17,10 +17,10 @@ All repositories should also contain a `README.md` file which details the follow
 ## Project structure
 All project repos are named according to the associated project (e.g. _projectname'). In addition, they contain the following folders:
 
-1. **data |** will contain separate folders for `raw_data`, `clean_data`, and `processed_data`,
-Sub-folders under `raw_data` will usually be organized by instrument.
+1. **data |** will contain separate folders for `RawData`, `CleanData`, and `ProcessedData`,
+Sub-folders under ``RawData`` will usually be organized by instrument.
 
-`clean_data`, and `processed_data` may contain sub-folders with merged data files derived from more than one instrument.
+`CleanData`, and `ProcessedData` may contain sub-folders with merged data files derived from more than one instrument.
 
 Do Not create swarms of unnecessary sub-folders; the YYYYMMDD is in the file name.
 
@@ -28,6 +28,8 @@ Do Not create swarms of unnecessary sub-folders; the YYYYMMDD is in the file nam
 Use sub-folder `OldR` to store outdated code.
 
 3. **docs |** project notes, etc.
+In particular, there must be a tabular `DataDictionary` in .txt or .md format.
+The `DataDictionary` includes every variable name; the definition of the variable; the units; the folder (ex. **data |`RawData`|`ClarioStar`)
 4. **output |** saved outputs (e.g. knit .Rmd outputs; figures and tables) from analysis
 Do not save swarms of intermediate figures!
 
@@ -38,7 +40,7 @@ Do not save swarms of intermediate figures!
 
 2. Select the owner for your new repository. (This will be the `FundyPhytoPhys` organization since you want it to be integrated within the organization. It would be you as an individual user *only* if you want to use this template for something outside of the lab group.)
 
-3. Choose a name for your new repository in the format of `projectname`.
+3. Choose a name for your new repository in the format of `PROJECTNAME`.
 
 4. Write a brief description about the repository.
 
