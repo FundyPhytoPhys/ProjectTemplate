@@ -28,11 +28,6 @@ Provide a brief description of the project - 150 words.
 
 List keywords separated by commas
 
-## Temporal Coverage
-
-- Start: YYYYMMDD
-- End: YYYYMMDD
-
 ## Additional information and support
 
 - Sensitive Data Flag - Human Participants:  NO
@@ -48,6 +43,17 @@ The software (and version) used to create the dataset.
 ## Repo content information
 
 Use the space below to summarize the structure of the repository with a decription of each folder, as applicable.
+
+### MetaDataCatalog
+URL for MetaDataCatalog, or MetaDataCatalog filename
+example:
+https://docs.google.com/spreadsheets/d/1rlj03Q_wq83qlyiY7mXq8BK6C-L0Ko799JsyhfA1TGI/edit#gid=0
+Use standard variable names for MetaDataCatalog
+
+### Data Dictionary
+URL for Data Dictionary, or Data Dictionary filename
+example:
+https://docs.google.com/spreadsheets/d/1KzHZETwASnt4XW69HYufHwlWaE_E-yHkLDqetiOYqBg/edit#gid=671854404
 
 ### Data/RawData
 
@@ -67,6 +73,7 @@ Processed data in formats for long-term storage.
 
 Scripts for processing raw data into cleaned data, outside derived code, and user derived code.
 A folder OldR is used to store outdated code.
+Typically organize .Rmd in modules; Import; Tidy; Process saving .Rds out of each step.
 
 ### Docs
 
